@@ -46,7 +46,7 @@
             "price": 7.95,
             "image": "src/img/pens/vepset0017-red.jpg",
             "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": false
+            "limited_edition": true
         },
         {
             "id": "VEPSET0017-2",
@@ -54,7 +54,7 @@
             "price": 7.95,
             "image": "src/img/pens/vepset0017-blue.jpg",
             "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": false
+            "limited_edition": true
         },
         {
             "id": "VEPSET0017-3",
@@ -62,7 +62,7 @@
             "price": 7.95,
             "image": "src/img/pens/vepset0017-black.jpg",
             "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": false
+            "limited_edition": true
         },
         {
             "id": "VEP0074",
