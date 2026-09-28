@@ -31,6 +31,7 @@ export default async function Home() {
                     <div className="space-y-2">
                         <p className="text-sm font-medium uppercase tracking-wide text-muted-foreground">Base Legami</p>
                         <h1 className="font-heading text-3xl font-semibold sm:text-4xl">Stylos effacables Legami</h1>
+                        <h2 className="text-primary font-bold">En cours de construction...</h2>
                     </div>
                 </header>
 
