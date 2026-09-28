@@ -1,0 +1,81 @@
+.tiltArea {
+    min-width: 0;
+    perspective: 1000px;
+}
+
+.tiltCard {
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 350ms ease-out, box-shadow 200ms ease, opacity 200ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .tiltArea:hover {
+        position: relative;
+        z-index: 1;
+    }
+
+    .tiltArea:hover .tiltCard:not([aria-busy='true']) {
+        transform: translateY(-6px) rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg));
+        transition: transform 120ms ease-out, box-shadow 200ms ease, opacity 200ms ease;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tiltCard {
+        transition: none;
+    }
+}
+
+.shiny {
+    isolation: isolate;
+}
+
+.shiny::before,
+.shiny::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.shiny::after {
+    background: linear-gradient(
+        115deg,
+        transparent 35%,
+        rgb(255 228 167 / 12%) 43%,
+        rgb(255 255 255 / 55%) 49%,
+        rgb(211 197 255 / 22%) 53%,
+        transparent 61%
+    );
+    background-size: 300% 100%;
+    background-position: 100% 0;
+    opacity: 0.65;
+    animation: shimmer 3s ease-in-out infinite;
+    transition: opacity 200ms ease;
+}
+
+.shiny:hover::after,
+.shiny:focus-visible::after {
+    opacity: 1;
+}
+
+@keyframes shimmer {
+    0%,
+    15% {
+        background-position: 100% 0;
+    }
+    65%,
+    100% {
+        background-position: 0% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .shiny::after {
+        animation: none;
+        background-position: 50% 0;
+        transition: none;
+    }
+}
