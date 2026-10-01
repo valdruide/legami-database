@@ -1,6 +1,4 @@
 import Image, { type StaticImageData } from 'next/image';
-import Link from 'next/link';
-import { ExternalLinkIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import styles from './legami-card.module.css';
@@ -9,8 +7,8 @@ export type LegamiProduct = {
     id: string;
     name: string;
     price: number;
+    year: number;
     image: StaticImageData;
-    url: string;
     limited_edition: boolean;
 };
 
@@ -117,24 +115,14 @@ export function LegamiCard({ product, owned, updating, onOwnershipToggle }: Lega
                     />
                 </div>
                 <CardHeader className="gap-3">
-                    <CardTitle className="line-clamp-3 font-bold leading-5 flex items-start gap-2">
-                        {product.name}{' '}
-                        <Link
-                            href={product.url}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-primary"
-                            onClick={(event) => event.stopPropagation()}
-                            onKeyDown={(event) => event.stopPropagation()}
-                        >
-                            <ExternalLinkIcon className="size-4" aria-hidden="true" />
-                        </Link>
-                    </CardTitle>
+                    <CardTitle className="line-clamp-3 font-bold leading-5">{product.name}</CardTitle>
                 </CardHeader>
                 <CardContent className="mt-auto space-y-3 text-sm">
                     <dl className="grid grid-cols-[auto_1fr] gap-x-3 gap-y-1">
                         <dt className="text-muted-foreground">Ref</dt>
                         <dd className="font-medium">{product.id}</dd>
+                        <dt className="text-muted-foreground">Année de sortie</dt>
+                        <dd className="font-medium">{product.year}</dd>
                         <dt className="text-muted-foreground">Prix</dt>
                         <dd className="font-medium">{priceFormatter.format(product.price)} €</dd>
                     </dl>

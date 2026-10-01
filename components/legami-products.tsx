@@ -1,12 +1,13 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
+import { ArrowDown, ArrowUp } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { LegamiCard, type LegamiProduct } from '@/components/legami-card';
 
 type OwnershipFilter = 'all' | 'owned' | 'missing';
-type ProductSort = 'default' | 'owned-first' | 'missing-first' | 'price-asc' | 'price-desc';
+type ProductSort = 'year-desc' | 'year-asc' | 'owned-first' | 'missing-first' | 'price-asc' | 'price-desc';
 
 type LegamiProductsProps = {
     products: LegamiProduct[];
@@ -19,8 +20,9 @@ const filterLabels: Record<OwnershipFilter, string> = {
     missing: 'Manquants',
 };
 
-const sortLabels: Record<ProductSort, string> = {
-    default: 'Ordre initial',
+const sortLabels: Record<ProductSort, ReactNode> = {
+    'year-desc': <>Année de sortie <ArrowDown className="size-4" aria-hidden="true" /><span className="sr-only">décroissante</span></>,
+    'year-asc': <>Année de sortie <ArrowUp className="size-4" aria-hidden="true" /><span className="sr-only">croissante</span></>,
     'owned-first': 'Possédés en premier',
     'missing-first': 'Manquants en premier',
     'price-asc': 'Prix croissant',
@@ -29,7 +31,7 @@ const sortLabels: Record<ProductSort, string> = {
 
 export function LegamiProducts({ products, initialOwnedProductIds }: LegamiProductsProps) {
     const [filter, setFilter] = useState<OwnershipFilter>('all');
-    const [sort, setSort] = useState<ProductSort>('missing-first');
+    const [sort, setSort] = useState<ProductSort>('year-desc');
     const [ownedProductIds, setOwnedProductIds] = useState(() => new Set(initialOwnedProductIds));
     const [pendingProductIds, setPendingProductIds] = useState(() => new Set<string>());
     const [saveError, setSaveError] = useState<string | null>(null);
@@ -104,6 +106,14 @@ export function LegamiProducts({ products, initialOwnedProductIds }: LegamiProdu
         });
 
         return filteredProducts.sort((firstProduct, secondProduct) => {
+            if (sort === 'year-desc') {
+                return secondProduct.year - firstProduct.year;
+            }
+
+            if (sort === 'year-asc') {
+                return firstProduct.year - secondProduct.year;
+            }
+
             if (sort === 'price-asc') {
                 return firstProduct.price - secondProduct.price;
             }
@@ -151,7 +161,8 @@ export function LegamiProducts({ products, initialOwnedProductIds }: LegamiProdu
                             <SelectValue>{sortLabels[sort]}</SelectValue>
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="default">Ordre initial</SelectItem>
+                            <SelectItem value="year-desc">{sortLabels['year-desc']}</SelectItem>
+                            <SelectItem value="year-asc">{sortLabels['year-asc']}</SelectItem>
                             <SelectItem value="owned-first">Possédés en premier</SelectItem>
                             <SelectItem value="missing-first">Manquants en premier</SelectItem>
                             <SelectItem value="price-asc">Prix croissant</SelectItem>

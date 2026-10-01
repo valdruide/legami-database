@@ -2,267 +2,347 @@
     "products": [
         {
             "id": "VEP0095-1",
-            "name": "Halloween 2026 «Spooky Party» - RED",
+            "name": "Halloween 2026 « Spooky Party » - RED",
             "price": 3.5,
             "image": "src/img/pens/vep0095-red.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-gel-effacable-spooky-party-erasable-pen-VEP0095.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2026
         },
         {
             "id": "VEP0095-2",
-            "name": "Halloween 2026 «Spooky Party» - PURPLE",
+            "name": "Halloween 2026 « Spooky Party » - PURPLE",
             "price": 3.5,
             "image": "src/img/pens/vep0095-purple.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-gel-effacable-spooky-party-erasable-pen-VEP0095.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2026
         },
         {
             "id": "VEP0095-3",
-            "name": "Halloween 2026 «Spooky Party» - BLACK",
+            "name": "Halloween 2026 « Spooky Party » - BLACK",
             "price": 3.5,
             "image": "src/img/pens/vep0095-black.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-gel-effacable-spooky-party-erasable-pen-VEP0095.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2026
         },
         {
             "id": "VEP0086",
             "name": "Hen «I Care a Lot»",
             "price": 1.95,
             "image": "src/img/pens/vep0086.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-hen-VEP0086.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2025
         },
         {
             "id": "VEP0085",
             "name": "Gorilla «Wild but Kind»",
             "price": 1.95,
             "image": "src/img/pens/vep0085.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-encre-gel-effacable-erasable-pen-gorilla-VEP0085.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2025
         },
         {
             "id": "VEPSET0017-1",
             "name": "Fur-ever Friends - RED",
             "price": 7.95,
             "image": "src/img/pens/vepset0017-red.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2024
         },
         {
             "id": "VEPSET0017-2",
             "name": "Fur-ever Friends - BLUE",
             "price": 7.95,
             "image": "src/img/pens/vepset0017-blue.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2024
         },
         {
             "id": "VEPSET0017-3",
             "name": "Fur-ever Friends - BLACK",
             "price": 7.95,
             "image": "src/img/pens/vepset0017-black.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-3-stylos-effacables-erasable-pen-fur-ever-friends-VEPSET0017.html",
-            "limited_edition": true
+            "limited_edition": true,
+            "year": 2024
         },
         {
             "id": "VEP0074",
             "name": "Ladybug « Get Lucky»",
             "price": 1.95,
             "image": "src/img/pens/vep0074.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-ladybug-VEP0074.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEP0062",
             "name": "Kitty « Be Curious »",
             "price": 1.95,
             "image": "src/img/pens/vep0062.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-kitty-be-curious-erasable-pen-VEP0062.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2023
         },
         {
             "id": "VEP0056",
             "name": "Monster « Aaargh-dorable »",
             "price": 1.95,
             "image": "src/img/pens/vep0056.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-monster-VEP0056.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2025
         },
         {
             "id": "VEPSET0016-1",
             "name": "Farm Sweet Farm - BLACK",
             "price": 7.95,
             "image": "src/img/pens/vepset0016-black.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-4-stylos-a-encre-gel-effacable-farm-sweet-farm-VEPSET0016.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEPSET0016-2",
             "name": "Farm Sweet Farm - PINK",
             "price": 7.95,
             "image": "src/img/pens/vepset0016-pink.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-4-stylos-a-encre-gel-effacable-farm-sweet-farm-VEPSET0016.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEPSET0016-3",
             "name": "Farm Sweet Farm - GREEN",
             "price": 7.95,
             "image": "src/img/pens/vepset0016-green.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-4-stylos-a-encre-gel-effacable-farm-sweet-farm-VEPSET0016.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEPSET0016-4",
             "name": "Farm Sweet Farm - RED",
             "price": 7.95,
             "image": "src/img/pens/vepset0016-red.jpg",
-            "url": "https://www.legami.com/fr-fr/set-de-4-stylos-a-encre-gel-effacable-farm-sweet-farm-VEPSET0016.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEP0033",
             "name": "Penguin « Always Cool »",
             "price": 1.95,
             "image": "src/img/pens/vep0033.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-penguin-always-cool-erasable-pen-VEP0070.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2019
         },
         {
             "id": "VEP0007",
             "name": "Dino « Rooarrr! »",
             "price": 1.95,
             "image": "src/img/pens/vep0007.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-dinosaur-VEP0065.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2019
         },
         {
             "id": "VEP0063",
             "name": "« Shark Attack »",
             "price": 1.95,
             "image": "src/img/pens/vep0063.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-shark-attack-erasable-pen-VEP0063.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2023
         },
         {
             "id": "VEP0045",
             "name": "Butterfly « You Are Beautiful »",
             "price": 1.95,
             "image": "src/img/pens/vep0045.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-butterfly-VEP0072.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2025
         },
         {
             "id": "VEP0067",
             "name": "Teddy Bear « Dream Big »",
             "price": 1.95,
             "image": "src/img/pens/vep0067.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-teddy-bear-dream-big-erasable-pen-VEP0067.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2023
         },
         {
             "id": "VEP0010",
             "name": "Llama « No Probllama »",
             "price": 1.95,
             "image": "src/img/pens/vep0010.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-llama-VEP0010.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2019
         },
         {
             "id": "VEP0028",
             "name": "Hippo « Hip Hippo Hooray! »",
             "price": 1.95,
             "image": "src/img/pens/vep0028.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-hippo-VEP0068.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2024
         },
         {
             "id": "VEP0066",
             "name": "Bunny « Don't Worry Be Hoppy »",
             "price": 1.95,
             "image": "src/img/pens/vep0066.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-bunny-dont-worry-be-hoppy-erasable-pen-VEP0066.html",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2023
         },
         {
-            "id": "VEP0019",
-            "name": "Giraffe « Head In The Clouds »",
-            "price": 1.95,
-            "image": "src/img/pens/vep0019.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-giraffe-VEP0081.html",
-            "limited_edition": false
-        },
-        {
-            "id": "VEP0013",
-            "name": "Unicorn « Believe In Magic »",
-            "price": 1.95,
-            "image": "src/img/pens/vep0013.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-unicorn-VEP0013.html",
-            "limited_edition": false
-        },
-        {
-            "id": "VEP0060",
-            "name": "Panda « Hug Me »",
-            "price": 1.95,
-            "image": "src/img/pens/vep0060.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-panda-hug-me-erasable-pen-VEP0060.html",
-            "limited_edition": false
-        },
-        {
-            "id": "VEP0044",
-            "name": "Tiger « Grrreat Adventure »",
-            "price": 1.95,
-            "image": "src/img/pens/vep0044.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-tiger-VEP0044.html",
-            "limited_edition": false
-        },
-        {
-            "id": "VEP0069",
-            "name": "Bee « Bee Different »",
-            "price": 1.95,
-            "image": "src/img/pens/vep0069.jpg",
-            "url": "https://www.legami.com/fr-fr/stylo-a-encre-gel-effacable-erasable-pen-bee-VEP0069.html",
-            "limited_edition": false
-        },
-        {
-            "id": "VEPSET0015-1",
-            "name": "Valentine's Day 2026 « Better Together » - ORANGE",
-            "price": 31.9,
-            "image": "src/img/pens/bettertogether-orange.jpg",
-            "url": "https://www.amazon.fr/LEGAMI-effaçables-spéciale-Saint-Valentin-Together/dp/B0GJ5TYM3N",
-            "limited_edition": true
-        },
-        {
-            "id": "VEPSET0015-2",
-            "name": "Valentine's Day 2026 « Better Together » - TURQUOISE",
-            "price": 31.9,
-            "image": "src/img/pens/bettertogether-turquoise.jpg",
-            "url": "https://www.amazon.fr/LEGAMI-effaçables-spéciale-Saint-Valentin-Together/dp/B0GJ5TYM3N",
-            "limited_edition": true
-        },
-        {
-            "id": "VEP0020",
-            "name": "Corgie « Feelin' Corgeous » - TURQUOISE",
-            "price": 1.95,
-            "image": "src/img/pens/vep0020.jpg",
-            "url": "https://www.amazon.fr/LEGAMI-effaçables-spéciale-Saint-Valentin-Together/dp/B0GJ5TYM3N",
-            "limited_edition": false
+            "id": "VEP0017",
+            "name": "Lion « The King »",
+            "price": 29.5,
+            "image": "src/img/pens/vep0017.jpg",
+            "limited_edition": false,
+            "year": 2019
         },
         {
             "id": "VEP0018",
             "name": "Elephant « Elephantastic »",
             "price": 18.9,
             "image": "src/img/pens/vep0018.jpg",
-            "url": "https://www.cdiscount.com/arts-loisirs/papeterie-fournitures-scolaires/stylo-a-encre-gel-effacable-legami-corps-d-eleph/f-161030308-leg1704295536272.html#mpos=1|mp",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2019
+        },
+        {
+            "id": "VEP0019",
+            "name": "Giraffe « Head In The Clouds »",
+            "price": 1.95,
+            "image": "src/img/pens/vep0019.jpg",
+            "limited_edition": false,
+            "year": 2023
+        },
+        {
+            "id": "VEP0013",
+            "name": "Unicorn « Believe In Magic »",
+            "price": 1.95,
+            "image": "src/img/pens/vep0013.jpg",
+            "limited_edition": false,
+            "year": 2019
+        },
+        {
+            "id": "VEP0060",
+            "name": "Panda « Hug Me »",
+            "price": 1.95,
+            "image": "src/img/pens/vep0060.jpg",
+            "limited_edition": false,
+            "year": 2023
+        },
+        {
+            "id": "VEP0044",
+            "name": "Tiger « Grrreat Adventure »",
+            "price": 1.95,
+            "image": "src/img/pens/vep0044.jpg",
+            "limited_edition": false,
+            "year": 2021
+        },
+        {
+            "id": "VEP0069",
+            "name": "Bee « Bee Different »",
+            "price": 1.95,
+            "image": "src/img/pens/vep0069.jpg",
+            "limited_edition": false,
+            "year": 2023
+        },
+        {
+            "id": "VEPSET0015-1",
+            "name": "Valentine's Day 2026 « Better Together » - ORANGE",
+            "price": 31.9,
+            "image": "src/img/pens/bettertogether-orange.jpg",
+            "limited_edition": true,
+            "year": 2026
+        },
+        {
+            "id": "VEPSET0015-2",
+            "name": "Valentine's Day 2026 « Better Together » - TURQUOISE",
+            "price": 31.9,
+            "image": "src/img/pens/bettertogether-turquoise.jpg",
+            "limited_edition": true,
+            "year": 2026
+        },
+        {
+            "id": "VEP0020",
+            "name": "Corgie « Feelin' Corgeous »",
+            "price": 4.5,
+            "image": "src/img/pens/vep0020.jpg",
+            "limited_edition": false,
+            "year": 2019
         },
         {
             "id": "VEP0012",
             "name": "Flora « Bloom your own way »",
             "price": 30.0,
             "image": "src/img/pens/vep0012.jpg",
-            "url": "https://www.amazon.fr/Legami-effaçable-lextrémité-consommer-thermosensible/dp/B09TB3ZS6Z?th=1",
-            "limited_edition": false
+            "limited_edition": false,
+            "year": 2022
+        },
+        {
+            "id": "EPSET0013-1",
+            "name": "Halloween 2025 « The BOO Crew » - BLACK",
+            "price": 30.0,
+            "image": "src/img/pens/epset0013-black.jpg",
+            "limited_edition": true,
+            "year": 2025
+        },
+        {
+            "id": "EPSET0013-2",
+            "name": "Halloween 2025 « The BOO Crew » - PURPLE",
+            "price": 30.0,
+            "image": "src/img/pens/epset0013-purple.jpg",
+            "limited_edition": true,
+            "year": 2025
+        },
+        {
+            "id": "EPSET0013-3",
+            "name": "Halloween 2025 « The BOO Crew » - ORANGE",
+            "price": 30.0,
+            "image": "src/img/pens/epset0013-orange.jpg",
+            "limited_edition": true,
+            "year": 2025
+        },
+        {
+            "id": "EPSET0008-1",
+            "name": "Halloween 2024 « The BOO Crew » - RED",
+            "price": 50.0,
+            "image": "src/img/pens/epset0008-red.jpg",
+            "limited_edition": true,
+            "year": 2024
+        },
+        {
+            "id": "EPSET0008-2",
+            "name": "Halloween 2024 « The BOO Crew » - PURPLE",
+            "price": 50.0,
+            "image": "src/img/pens/epset0008-purple.jpg",
+            "limited_edition": true,
+            "year": 2024
+        },
+        {
+            "id": "EPSET0008-3",
+            "name": "Halloween 2024 « The BOO Crew » - BLACK",
+            "price": 50.0,
+            "image": "src/img/pens/epset0008-black.jpg",
+            "limited_edition": true,
+            "year": 2024
+        },
+        {
+            "id": "VEPSET0012-1",
+            "name": "Halloween 2023 « The BOO Crew » - BLACK",
+            "price": 120.0,
+            "image": "src/img/pens/vepset0012-black.jpg",
+            "limited_edition": true,
+            "year": 2023
+        },
+        {
+            "id": "VEPSET0012-2",
+            "name": "Halloween 2023 « The BOO Crew » - GREEN",
+            "price": 120.0,
+            "image": "src/img/pens/vepset0012-green.jpg",
+            "limited_edition": true,
+            "year": 2023
+        },
+        {
+            "id": "VEPSET0012-3",
+            "name": "Halloween 2023 « The BOO Crew » - ORANGE",
+            "price": 120.0,
+            "image": "src/img/pens/vepset0012-orange.jpg",
+            "limited_edition": true,
+            "year": 2023
         }
     ]
 }
